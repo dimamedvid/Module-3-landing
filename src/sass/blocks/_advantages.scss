@@ -15,7 +15,10 @@
         margin-top: 60px;
     }
     &__items{
-        width: 269px
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 238px;
     }
     &__img{
         display: block;
