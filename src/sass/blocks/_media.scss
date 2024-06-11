@@ -90,10 +90,18 @@
             font-size: 19px;
         }
         &__title{
-            font-size: 15px;
+            margin-top: 15px;
         }
         &__text{
-            font-size: 11px;
+            margin-top: 10px;
+        }
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+            margin: 50px;
+        }
+        &__items{
+            margin-bottom: 30px;
         }
     }
     .button{

@@ -234,9 +234,20 @@
   .advantages__header {
     font-size: 19px; }
   .advantages__title {
-    font-size: 15px; }
+    margin-top: 15px; }
   .advantages__text {
-    font-size: 11px; }
+    margin-top: 10px; }
+  .advantages__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px; }
+  .advantages__items {
+    margin-bottom: 30px; }
 
   .button {
     width: 135px;
