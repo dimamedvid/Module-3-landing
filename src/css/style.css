@@ -153,7 +153,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    max-width: 238px; }
+    width: 238px; }
   .advantages__img {
     display: block;
     margin: 0 auto; }
@@ -202,7 +202,48 @@
   .header__official {
     display: none; }
 
+  .advantages__header {
+    font-size: 24px; }
+  .advantages__title {
+    font-size: 16px; }
+  .advantages__text {
+    font-size: 12px; }
+
   .promo__icons {
     width: 397px; } }
+@media (max-width: 575px) {
+  .container {
+    padding: 0 5px; }
+
+  .header__contacts {
+    margin-left: 7px; }
+  .header__phone {
+    font-size: 15px; }
+
+  .promo__header {
+    font-size: 24px; }
+  .promo__subheader {
+    font-size: 13px; }
+  .promo__icons {
+    width: 310px; }
+  .promo__icon {
+    font-size: 13px; }
+  .promo__link {
+    font-size: 15px; }
+
+  .advantages__header {
+    font-size: 19px; }
+  .advantages__title {
+    font-size: 15px; }
+  .advantages__text {
+    font-size: 11px; }
+
+  .button {
+    width: 135px;
+    height: 30px; }
+    .button_main {
+      width: 250px;
+      height: 50px;
+      font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

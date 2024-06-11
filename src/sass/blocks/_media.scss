@@ -39,13 +39,70 @@
             display: none;
         }
     }
+    .advantages{
+        &__header{
+            font-size: 24px;
+        }
+        &__title{
+            font-size: 16px;
+        }
+        &__text{
+            font-size: 12px;
+        }
+    }
     .promo{
         &__icons{
             width: 397px;
         }
     }
-
 }
 @media (max-width: 575px){
-
+    .container {
+        padding: 0 5px;
+    }
+    .header{
+        &__contacts{
+            margin-left: 7px;
+        }
+        &__phone{
+            font-size: 15px;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 24px;
+        }
+        &__subheader{
+            font-size: 13px;
+        }
+        &__icons{
+            width: 310px;
+        }
+        &__icon{
+            font-size: 13px;
+        }
+        &__link{
+            font-size: 15px;
+        }
+    }
+    .advantages{
+        &__header{
+            font-size: 19px;
+        }
+        &__title{
+            font-size: 15px;
+        }
+        &__text{
+            font-size: 11px;
+        }
+    }
+    .button{
+        width: 135px;
+        height: 30px;
+        &_main{
+            width: 250px;
+            height: 50px;
+            font-size: 15px;
+        }
+    }
 }
