@@ -2,6 +2,9 @@
     .container {
         max-width: 960px;
     }
+    .title_left{
+        font-size: 32px;
+    }
 }
 @media (max-width: 991px){
     .container {
@@ -25,8 +28,16 @@
         &__text{
             font-size: 13px;
         }
-        &__title{
-            font-size: 17px;
+    }
+    .title{
+        font-size: 17px;
+    }
+    .title_left{
+        font-size: 28px;
+    }
+    .consultation{
+        &__descr{
+            font-size: 18px;
         }
     }
 }
@@ -43,11 +54,14 @@
         &__header{
             font-size: 24px;
         }
-        &__title{
-            font-size: 16px;
-        }
         &__text{
             font-size: 12px;
+        }
+    }
+    .title{
+        font-size: 16px;
+        &_left{
+            font-size: 24px;
         }
     }
     .promo{
@@ -89,9 +103,6 @@
         &__header{
             font-size: 19px;
         }
-        &__title{
-            margin-top: 15px;
-        }
         &__text{
             margin-top: 10px;
         }
@@ -104,6 +115,13 @@
             margin-bottom: 30px;
         }
     }
+    .title{
+        margin-top: 15px;
+        &_left{
+            font-size: 20px;
+            text-align: center;
+        }
+    }
     .button{
         width: 135px;
         height: 30px;
@@ -112,5 +130,20 @@
             height: 50px;
             font-size: 15px;
         }
+        &_submit{
+            width: 100%;
+            height: 55px;
+        }
+    }
+    .consultation{
+        &__descr{
+            font-size: 14px;
+            text-align: center;
+
+        }
+    }
+    .feed-form{
+        margin: 0 auto;
+        margin-top: 20px;
     }
 }
