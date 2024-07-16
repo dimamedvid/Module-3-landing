@@ -326,13 +326,17 @@
 
   .feed-form {
     margin: 0 auto;
-    margin-top: 20px; } }
+    margin-top: 20px;
+    width: 290px; } }
 .carousel {
   padding: 81px 0; }
   .carousel__inner {
     position: relative;
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto; }
+    .carousel__inner img {
+      max-width: 100%;
+      display: block; }
   .carousel .slick-prev, .carousel .slick-next {
     position: absolute;
     top: 50%;
@@ -347,5 +351,31 @@
   .carousel .slick-next {
     right: -66px;
     left: auto; }
+
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  bottom: -30px; }
+  .slick-dots li {
+    line-height: 0;
+    font-size: 0; }
+    .slick-dots li button {
+      line-height: 0;
+      font-size: 0;
+      border: none;
+      width: 10px;
+      height: 10px;
+      background-color: #454343;
+      border-radius: 50%; }
+
+.slick-dots li.slick-active button {
+  background-color: #b4abab; }
 
 /*# sourceMappingURL=style.css.map */

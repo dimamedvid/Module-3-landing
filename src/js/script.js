@@ -6,10 +6,12 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="icons/chevron-right-solid.svg"></button>',
         responsive: [
             {
-              breakpoint: 768,
+              breakpoint: 875,
               settings: {
                 dots: true,
-                arrows: false
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 2000
               }
             },
           ]
