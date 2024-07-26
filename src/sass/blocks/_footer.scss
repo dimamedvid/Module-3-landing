@@ -43,6 +43,10 @@
         img {
             height: 27px;
         }
+        transition: all .3s;
+        &:hover {
+            box-shadow: 0px 0px 20px #e4dede;
+        }
     }
     &__social {
         display: flex;
