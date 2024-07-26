@@ -561,7 +561,18 @@
     font-size: 28px; }
 
   .consultation__descr {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .footer__info {
+    width: 400px;
+    height: 240px;
+    padding: 40px 38px 50px; }
+  .footer__addr {
+    font-size: 18px;
+    margin-bottom: 30px; }
+  .footer__phone {
+    font-size: 18px;
+    margin-bottom: 30px; } }
 @media (max-width: 767px) {
   .container {
     max-width: 540px; }
@@ -605,7 +616,18 @@
   .feed__count {
     font-size: 12px; }
   .feed__descr {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .footer__info {
+    width: 380px;
+    height: 220px;
+    padding: 40px 38px 50px; }
+  .footer__addr {
+    font-size: 18px;
+    margin-bottom: 30px; }
+  .footer__phone {
+    font-size: 18px;
+    margin-bottom: 30px; } }
 @media (max-width: 575px) {
   .container {
     padding: 0 5px; }
@@ -694,6 +716,17 @@
   .feed__count {
     font-size: 10px; }
   .feed__descr {
-    font-size: 12px; } }
+    font-size: 12px; }
+
+  .footer__info {
+    width: 320px;
+    height: 210px;
+    padding: 30px 38px 30px; }
+  .footer__addr {
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .footer__phone {
+    font-size: 16px;
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
