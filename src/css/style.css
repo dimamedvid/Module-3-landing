@@ -203,6 +203,13 @@
     color: #fff;
     font-size: 20px;
     font-weight: 500; }
+  .consultation .error {
+    border: 1px solid red; }
+  .consultation label.error {
+    color: #fff;
+    border: none;
+    text-align: center;
+    margin-bottom: 15px; }
 
 .feed-form {
   margin-top: 36px;
@@ -587,6 +594,12 @@
     color: #0d0d0d; }
   .modal_mini {
     min-height: 14px; }
+  .modal .error {
+    border: 1px solid red; }
+  .modal label.error {
+    border: none;
+    text-align: center;
+    margin-bottom: 15px; }
 
 #consultation, #order, #thanks {
   display: none; }
@@ -802,6 +815,8 @@
       .modal .feed-form input {
         font-size: 13px; }
     .modal .button_submit {
+      font-size: 14px; }
+    .modal label.error {
       font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */
