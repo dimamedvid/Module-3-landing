@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 1200,
+        autoplay: true,
         adaptiveHeight: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="icons/chevron-left-solid.svg"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="icons/chevron-right-solid.svg"></button>',
@@ -54,7 +55,7 @@ $(document).ready(function(){
       })
     });
 
-//Validation form
+  //Validation form
 
     function valideForms(form){
       $(form).validate({
@@ -87,7 +88,28 @@ $(document).ready(function(){
     valideForms('#consultation form');
     valideForms('#order form');
 
-//mask for phone
+    //mask for phone
 
     $('input[name=phone]').mask("+7 (999) 999-99-99");
+
+    //send mail
+
+    $('form').submit(function(e) {
+      e.preventDefault();
+      if(!$(this).valid()) {
+        return;
+      }
+      $.ajax({
+        type: "POST",
+        url: "mailer/smart.php",
+        data: $(this).serialize()
+      }).done(function() {
+        $(this).find("input").val("");
+        $('#consultation, #order').fadeOut();
+        $('.overlay, #thanks').fadeIn('slow');
+
+        $('form').trigger('reset');
+      });
+      return false;
+    });
 });
